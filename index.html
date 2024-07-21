@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Tourism</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div>
+                <img src="./image/logo.jpg" alt="Kerala Tourism logo" width="100" height="100">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#kerala">About Us</a></li>
+                    <li><a href="#district">Districts</a></li>
+                    <li><button>Login</button></li>
+                    <li><button>Sign up</button></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Section Tag -->
+        <section>
+            <h1>Come and Enjoy Our Culture</h1>
+            <a href="#">Learn More</a>
+            <a href="#">Contact Us</a>
+        </section>
+    </main>
+    <hr>
+    <section>
+        <h1>Top Destinations</h1>
+        <article>
+            <img src="./image/alappuzha.jpg" alt="Alappuzha" width="250" height="250">
+            <p>Alappuzha</p>
+        </article>
+        <article>
+            <img src="./image/idukki.jpg" alt="Idukki" width="250" height="250">
+            <p>Idukki</p>
+        </article>
+        <article>
+            <img src="./image/wayanad.jpeg" alt="Wayanad" width="250" height="250">
+            <p>Wayanad</p>
+        </article>
+        <article>
+            <img src="./image/kovalam beach.jpg" alt="Kovalam" width="250" height="250">
+            <p>Kovalam</p>
+        </article>
+    </section>
+
+    <section>
+        <h1>About Kerala</h1>
+        <img src="./image/kerala map.png" alt="Kerala Map" width="250" height="250">
+        <p id="kerala">Kerala, often referred to as "God's Own Country," is a state in the southern part of India. Known for its palm-lined beaches, backwaters, and network of canals, Kerala is a popular destination for tourists seeking natural beauty and tranquility. The state also boasts a rich cultural heritage, with traditional arts, music, and dance performances being integral parts of its vibrant culture. Kerala's cuisine, known for its use of coconut, spices, and seafood, is another major attraction for visitors.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/R83BlU5nnbs?si=FLVRHTU6oTUL2HQP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section>
+        <h1 id="district">Districts</h1>
+        <ol>
+            <li><a href="https://en.wikipedia.org/wiki/Alappuzha" target="_blank">Alappuzha</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Ernakulam" target="_blank">Ernakulam</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Idukki" target="_blank">Idukki</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Kannur" target="_blank">Kannur</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Kasaragod" target="_blank">Kasaragod</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Kollam" target="_blank">Kollam</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Kottayam" target="_blank">Kottayam</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Kozhikode" target="_blank">Kozhikode</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Malappuram" target="_blank">Malappuram</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Palakkad" target="_blank">Palakkad</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Pathanamthitta" target="_blank">Pathanamthitta</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Thiruvananthapuram" target="_blank">Thiruvananthapuram</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Thrissur" target="_blank">Thrissur</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Wayanad" target="_blank">Wayanad</a></li>
+        </ol>
+    </section>
+
+    <section>
+        <h1>Contact Us</h1>
+        <form>
+            <fieldset style="width: 300px;">
+                <legend>Contact Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" pattern="[A-Za-z\s]+" title="Name should only contain letters." required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address." required><br><br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" title="Phone number should be 10 digits." required><br><br>
+                <label for="district">District:</label>
+                <select id="district" name="district" required>
+                    <option value="">Select Districts which you want to tavel</option>
+                    <option value="alappuzha">Alappuzha</option>
+                    <option value="ernakulam">Ernakulam</option>
+                    <option value="idukki">Idukki</option>
+                    <option value="kannur">Kannur</option>
+                    <option value="kasaragod">Kasaragod</option>
+                    <option value="kollam">Kollam</option>
+                    <option value="kottayam">Kottayam</option>
+                    <option value="kozhikode">Kozhikode</option>
+                    <option value="malappuram">Malappuram</option>
+                    <option value="palakkad">Palakkad</option>
+                    <option value="pathanamthitta">Pathanamthitta</option>
+                    <option value="thiruvananthapuram">Thiruvananthapuram</option>
+                    <option value="thrissur">Thrissur</option>
+                    <option value="wayanad">Wayanad</option>
+                </select><br><br>
+                <label>Where are you travelling from?:</label><br>
+                <input type="radio" id="kerala" name="travelling_from" value="kerala" required>
+                <label for="kerala">Kerala</label><br>
+                <input type="radio" id="outside_kerala" name="travelling_from" value="outside_kerala">
+                <label for="outside_kerala">Outside Kerala</label><br>
+                <input type="radio" id="outside_india" name="travelling_from" value="outside_india">
+                <label for="outside_india">Outside India</label><br><br>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kerala Tourism. All rights reserved.</p>
+    </footer>
+</body>
+</html>
